@@ -107,13 +107,9 @@ if [ "" = "$PKG_OK" ]; then
   sleep 1
   echo ""
   sleep 1
-  echo -e "[ ${tyblue}NOTES${NC} ] 1. apt update -y"
+  echo -e "[ ${tyblue}NOTES${NC} ] Bismillah"
   sleep 1
-  echo -e "[ ${tyblue}NOTES${NC} ] 2. apt upgrade -y"
-  sleep 1
-  echo -e "[ ${tyblue}NOTES${NC} ] 3. apt dist-upgrade -y"
-  sleep 1
-  echo -e "[ ${tyblue}NOTES${NC} ] 4. reboot"
+  echo -e "[ ${tyblue}NOTES${NC} ] reboot"
   sleep 1
   echo ""
   sleep 1
@@ -198,7 +194,7 @@ fi
 
 echo ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green     AUTO SCRIPT KennXV               $NC"
+echo -e "$green     AUTO SCRIPT SIBAGOS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
@@ -284,7 +280,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ SCRIPT RIDWAN ]-===================="
+echo "=====================-[ SCRIPT SIBAGOS ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -326,7 +322,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By KennXV ]-==============="
+echo "===============-[ Script Created By SIBAGOS ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
