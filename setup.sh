@@ -119,8 +119,8 @@ if [ "" = "$PKG_OK" ]; then
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Proses rebooting"
   sleep 1
-  echo -e "[ ${tyblue}NOTES${NC} ] Apakah Anda Ingin Mulai Menginstal Script"
-  echo -e "[ ${tyblue}NOTES${NC} ] Kalo Iyah Silahkan Tekan Enter"
+  echo -e "[ ${tyblue}NOTES${NC} ] Otw Menginstal Script"
+  echo -e "[ ${tyblue}NOTES${NC} ] Tekan Enter"
   read
 else
   echo -e "[ ${green}INFO${NC} ] Install Berhasil"
