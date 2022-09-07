@@ -15,9 +15,6 @@ elif [[ -e /etc/centos-release ]]; then
 	OS=centos
 fi
 
-
-
-
 echo "Tools install...!"
 echo "Progress..."
 sleep 2
@@ -27,7 +24,6 @@ sudo apt update -y
 sudo apt dist-upgrade -y
 sudo apt-get remove --purge ufw firewalld -y 
 sudo apt-get remove --purge exim4 -y 
-
 
 sudo apt install -y screen curl jq bzip2 gzip coreutils rsyslog iftop \
  htop zip unzip net-tools sed gnupg gnupg1 \
@@ -54,7 +50,6 @@ systemctl enable vnstat
 /etc/init.d/vnstat restart
 rm -f /root/vnstat-2.6.tar.gz >/dev/null 2>&1
 rm -rf /root/vnstat-2.6 >/dev/null 2>&1
-
 
 fi
 
